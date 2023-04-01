@@ -27,15 +27,6 @@ main.nowrap {
     flex-grow: 19;
 }
 
-#logo {
-    margin-top: 3.9%;
-    margin-left: 5.8%;
-}
-
-.logo{
-    height: 70px;
-    width: 80px;
-}
 
 .area-texto {
     margin-left: auto;
@@ -83,7 +74,9 @@ main.nowrap {
 }
 
 .boton:hover {
-    background-color: #0A3871;
+
+    background-color: #2261ae;
+
     color: white;
 }
 
@@ -91,7 +84,6 @@ main.nowrap {
     background-color: #0A3871;
     opacity: 80%;
 }
-
 
 /* Resultado */
 /* Tiene dos div, text-resultado y prueba */
@@ -150,31 +142,4 @@ main.nowrap {
 #botones-resultado {
     display: flex;
     justify-content: center;
-}
-
-/* Footer */
-footer {
-    background-color: #ffffff;
-    width: 100%;
-    padding: 5px 0px;
-    text-align: center;
-    font-size: x-large;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    font-family: 'Inter', sans-serif;
-    justify-content: center;
-}
-
-.redes {
-    width: 25px;
-}
-
-.link {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-#figura {
-    width: 300px;
-    height: 300px;
 }

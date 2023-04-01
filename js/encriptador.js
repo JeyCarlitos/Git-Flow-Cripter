@@ -14,7 +14,6 @@ function encriptar(texto) {
 };
 
 
-
 function desencriptar(texto) {
     let textoSinTildes = eliminarTildes(texto);
     let desencriptado = textoSinTildes.replaceAll("ufat", "u");
@@ -29,6 +28,7 @@ function desencriptar(texto) {
     desencriptado = desencriptado.replaceAll("ENTER", "E");
     return desencriptado;
 };  
+
 
 
 function eliminarTildes(texto) {
